@@ -1,7 +1,7 @@
 {
   "name": "ember-uri-shim",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "ES6 accessible module for URI.js within your EmberJS applications.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -43,7 +43,11 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-merge-trees": "^1.1.1",
+    "ember-cli-babel": "^5.1.5",
+    "urijs": "^1.17.1",
+    "lodash.defaults": "^4.0.1"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

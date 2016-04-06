@@ -1,26 +1,21 @@
-# Ember-uri-shim
+# ember-uri-shim
 
-This README outlines the details of collaborating on this Ember addon.
+ES6 accessible module for URI.js within your EmberJS applications.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-uri-shim
+```
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+```js
+import uri from 'uri';
+```
 
-## Running Tests
+See the [URI.js page](http://medialize.github.io/URI.js/) for further documentation.
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+## License
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+ember-uri-shim is [MIT Licensed](https://github.com/spieker/ember-uri-shim/blob/master/LICENSE.md).
