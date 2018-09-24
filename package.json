@@ -46,7 +46,7 @@
     "broccoli-funnel": "^1.0.1",
     "broccoli-merge-trees": "^1.1.1",
     "ember-cli-babel": "^5.1.5",
-    "urijs": "^1.17.1",
+    "urijs": "^1.19.1",
     "lodash.defaults": "^4.0.1"
   },
   "ember-addon": {
